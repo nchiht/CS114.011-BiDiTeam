@@ -25,7 +25,10 @@ def filter_lines_without_suffix(label_file, suffixes_to_keep):
         print(f"File {label_file} không tồn tại.")
 
 # Thay đổi 'duong_dan_label_file' thành đường dẫn thực tế của file label.txt
-duong_dan_label_file = './train_label.txt'
+# duong_dan_label_file = './train_label.txt'
+duong_dan_label_file = './test_label.txt'
+# duong_dan_label_file = './val_label.txt'
+
 
 # Hậu tố cần giữ lại
 suffixes_to_keep = [f'/{a}/{b}' for a in ['other', 'title', 'author', 'publisher'] for b in range(31)]
@@ -54,9 +57,9 @@ def filter_images_from_label_file(image_folder, label_file):
             print(f"Đã xóa: {os.path.join(image_folder, image)}")
 
 # # Thay đổi 'duong_dan_thu_muc_hinh_anh' và 'duong_dan_label_file' thành đường dẫn thực tế của thư mục hình ảnh và file label.txt
-duong_dan_thu_muc_hinh_anh = './train_images_backup'
-duong_dan_label_file = './train_label.txt'
+# duong_dan_thu_muc_hinh_anh = './train_images'
+duong_dan_thu_muc_hinh_anh = './test_images'
+# duong_dan_thu_muc_hinh_anh = './val_images'
 
 # # Gọi hàm để xóa ảnh không có trong label file
 filter_images_from_label_file(duong_dan_thu_muc_hinh_anh, duong_dan_label_file)
-
