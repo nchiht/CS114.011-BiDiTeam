@@ -12,7 +12,7 @@ Trường Đại học Công nghệ Thông tin - ĐHQG TP.HCM (UIT)
 # Danh sách thành viên
 
 |STT|Tên|MSSV|Khóa|Ngành|
-|:---|:---|:---:|:---|:---|
+|:---:|:---:|:---:|:---:|:---:|
 |1|Bùi Lê Trọng Đức|21520725|16|Công nghệ Thông tin|
 |2|Nguyễn Tiến Thịnh|21521472|16|Công nghệ Thông tin|
 |2|Nguyễn Chí Thi|21522614|16|Công nghệ Thông tin|
