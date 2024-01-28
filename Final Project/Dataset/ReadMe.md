@@ -10,7 +10,7 @@
 - Tập val: 132 ảnh
 - Tập test: 132 ảnh
 # Sơ đồ phân bố dữ liệu
->├── OCR_data/
+>├── OCR_data/\n
 >│ ├── test_images/
 >│ │ ├── image0.jpg
 >│ │ ├── image1.jpg
